@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336FA7271EE89EEE004485EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336FA7261EE89EEE004485EA /* AppDelegate.swift */; };
+		336FA7291EE89EEE004485EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336FA7281EE89EEE004485EA /* ViewController.swift */; };
+		336FA72C1EE89EEE004485EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336FA72A1EE89EEE004485EA /* Main.storyboard */; };
+		336FA72E1EE89EEE004485EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336FA72D1EE89EEE004485EA /* Assets.xcassets */; };
+		336FA7311EE89EEE004485EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336FA72F1EE89EEE004485EA /* LaunchScreen.storyboard */; };
+		336FA73C1EE89EEF004485EA /* BentukApaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336FA73B1EE89EEF004485EA /* BentukApaTests.swift */; };
+		336FA7471EE89EEF004485EA /* BentukApaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336FA7461EE89EEF004485EA /* BentukApaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336FA7381EE89EEF004485EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336FA71B1EE89EEE004485EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336FA7221EE89EEE004485EA;
+			remoteInfo = BentukApa;
+		};
+		336FA7431EE89EEF004485EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336FA71B1EE89EEE004485EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336FA7221EE89EEE004485EA;
+			remoteInfo = BentukApa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336FA7231EE89EEE004485EA /* BentukApa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentukApa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336FA7261EE89EEE004485EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		336FA7281EE89EEE004485EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		336FA72B1EE89EEE004485EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		336FA72D1EE89EEE004485EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336FA7301EE89EEE004485EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		336FA7321EE89EEE004485EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336FA7371EE89EEE004485EA /* BentukApaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BentukApaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336FA73B1EE89EEF004485EA /* BentukApaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentukApaTests.swift; sourceTree = "<group>"; };
+		336FA73D1EE89EEF004485EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336FA7421EE89EEF004485EA /* BentukApaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BentukApaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336FA7461EE89EEF004485EA /* BentukApaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentukApaUITests.swift; sourceTree = "<group>"; };
+		336FA7481EE89EEF004485EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336FA7201EE89EEE004485EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA7341EE89EEE004485EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA73F1EE89EEF004485EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336FA71A1EE89EEE004485EA = {
+			isa = PBXGroup;
+			children = (
+				336FA7251EE89EEE004485EA /* BentukApa */,
+				336FA73A1EE89EEF004485EA /* BentukApaTests */,
+				336FA7451EE89EEF004485EA /* BentukApaUITests */,
+				336FA7241EE89EEE004485EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336FA7241EE89EEE004485EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336FA7231EE89EEE004485EA /* BentukApa.app */,
+				336FA7371EE89EEE004485EA /* BentukApaTests.xctest */,
+				336FA7421EE89EEF004485EA /* BentukApaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336FA7251EE89EEE004485EA /* BentukApa */ = {
+			isa = PBXGroup;
+			children = (
+				336FA7261EE89EEE004485EA /* AppDelegate.swift */,
+				336FA7281EE89EEE004485EA /* ViewController.swift */,
+				336FA72A1EE89EEE004485EA /* Main.storyboard */,
+				336FA72D1EE89EEE004485EA /* Assets.xcassets */,
+				336FA72F1EE89EEE004485EA /* LaunchScreen.storyboard */,
+				336FA7321EE89EEE004485EA /* Info.plist */,
+			);
+			path = BentukApa;
+			sourceTree = "<group>";
+		};
+		336FA73A1EE89EEF004485EA /* BentukApaTests */ = {
+			isa = PBXGroup;
+			children = (
+				336FA73B1EE89EEF004485EA /* BentukApaTests.swift */,
+				336FA73D1EE89EEF004485EA /* Info.plist */,
+			);
+			path = BentukApaTests;
+			sourceTree = "<group>";
+		};
+		336FA7451EE89EEF004485EA /* BentukApaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				336FA7461EE89EEF004485EA /* BentukApaUITests.swift */,
+				336FA7481EE89EEF004485EA /* Info.plist */,
+			);
+			path = BentukApaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336FA7221EE89EEE004485EA /* BentukApa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336FA74B1EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApa" */;
+			buildPhases = (
+				336FA71F1EE89EEE004485EA /* Sources */,
+				336FA7201EE89EEE004485EA /* Frameworks */,
+				336FA7211EE89EEE004485EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BentukApa;
+			productName = BentukApa;
+			productReference = 336FA7231EE89EEE004485EA /* BentukApa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336FA7361EE89EEE004485EA /* BentukApaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336FA74E1EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApaTests" */;
+			buildPhases = (
+				336FA7331EE89EEE004485EA /* Sources */,
+				336FA7341EE89EEE004485EA /* Frameworks */,
+				336FA7351EE89EEE004485EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336FA7391EE89EEF004485EA /* PBXTargetDependency */,
+			);
+			name = BentukApaTests;
+			productName = BentukApaTests;
+			productReference = 336FA7371EE89EEE004485EA /* BentukApaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		336FA7411EE89EEF004485EA /* BentukApaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336FA7511EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApaUITests" */;
+			buildPhases = (
+				336FA73E1EE89EEF004485EA /* Sources */,
+				336FA73F1EE89EEF004485EA /* Frameworks */,
+				336FA7401EE89EEF004485EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336FA7441EE89EEF004485EA /* PBXTargetDependency */,
+			);
+			name = BentukApaUITests;
+			productName = BentukApaUITests;
+			productReference = 336FA7421EE89EEF004485EA /* BentukApaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336FA71B1EE89EEE004485EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Muhammad Syafiq";
+				TargetAttributes = {
+					336FA7221EE89EEE004485EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G5B3JZ449V;
+						ProvisioningStyle = Automatic;
+					};
+					336FA7361EE89EEE004485EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G5B3JZ449V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336FA7221EE89EEE004485EA;
+					};
+					336FA7411EE89EEF004485EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G5B3JZ449V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336FA7221EE89EEE004485EA;
+					};
+				};
+			};
+			buildConfigurationList = 336FA71E1EE89EEE004485EA /* Build configuration list for PBXProject "BentukApa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336FA71A1EE89EEE004485EA;
+			productRefGroup = 336FA7241EE89EEE004485EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336FA7221EE89EEE004485EA /* BentukApa */,
+				336FA7361EE89EEE004485EA /* BentukApaTests */,
+				336FA7411EE89EEF004485EA /* BentukApaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336FA7211EE89EEE004485EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336FA7311EE89EEE004485EA /* LaunchScreen.storyboard in Resources */,
+				336FA72E1EE89EEE004485EA /* Assets.xcassets in Resources */,
+				336FA72C1EE89EEE004485EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA7351EE89EEE004485EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA7401EE89EEF004485EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336FA71F1EE89EEE004485EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336FA7291EE89EEE004485EA /* ViewController.swift in Sources */,
+				336FA7271EE89EEE004485EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA7331EE89EEE004485EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336FA73C1EE89EEF004485EA /* BentukApaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336FA73E1EE89EEF004485EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336FA7471EE89EEF004485EA /* BentukApaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336FA7391EE89EEF004485EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336FA7221EE89EEE004485EA /* BentukApa */;
+			targetProxy = 336FA7381EE89EEF004485EA /* PBXContainerItemProxy */;
+		};
+		336FA7441EE89EEF004485EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336FA7221EE89EEE004485EA /* BentukApa */;
+			targetProxy = 336FA7431EE89EEF004485EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		336FA72A1EE89EEE004485EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336FA72B1EE89EEE004485EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		336FA72F1EE89EEE004485EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336FA7301EE89EEE004485EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336FA7491EE89EEF004485EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336FA74A1EE89EEF004485EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336FA74C1EE89EEF004485EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		336FA74D1EE89EEF004485EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		336FA74F1EE89EEF004485EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BentukApa.app/BentukApa";
+			};
+			name = Debug;
+		};
+		336FA7501EE89EEF004485EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BentukApa.app/BentukApa";
+			};
+			name = Release;
+		};
+		336FA7521EE89EEF004485EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BentukApa;
+			};
+			name = Debug;
+		};
+		336FA7531EE89EEF004485EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5B3JZ449V;
+				INFOPLIST_FILE = BentukApaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lomotech.BentukApaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BentukApa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336FA71E1EE89EEE004485EA /* Build configuration list for PBXProject "BentukApa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336FA7491EE89EEF004485EA /* Debug */,
+				336FA74A1EE89EEF004485EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336FA74B1EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336FA74C1EE89EEF004485EA /* Debug */,
+				336FA74D1EE89EEF004485EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336FA74E1EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336FA74F1EE89EEF004485EA /* Debug */,
+				336FA7501EE89EEF004485EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336FA7511EE89EEF004485EA /* Build configuration list for PBXNativeTarget "BentukApaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336FA7521EE89EEF004485EA /* Debug */,
+				336FA7531EE89EEF004485EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336FA71B1EE89EEE004485EA /* Project object */;
+}
